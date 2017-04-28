@@ -1,3 +1,3 @@
 # symfonyDocker
-It  is used Docker to deploy Symfony project.
+This is used Docker to deploy Symfony project.
 How
