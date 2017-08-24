@@ -29,6 +29,6 @@ services:
         environment:
             - MYSQL_DATABASES: test
             - MYSQL_USER: root
-	    - MYSQL_PASSWORD: test
+            - MYSQL_PASSWORD: test
             - MYSQL_ROOT_PASSWORD: 123456
-	    - LANG=C.UTF-8
+            - LANG=C.UTF-8
