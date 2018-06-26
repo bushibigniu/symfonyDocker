@@ -8,7 +8,7 @@ services:
             - ./yourProject/:/var/www/html
             - ./logs/nginx:/var/logs/nginx
         ports:
-            - "8000:80"
+            - "8090:80"
         links:
             - php-fpm
             - mysql
