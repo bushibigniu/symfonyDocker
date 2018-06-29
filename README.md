@@ -22,9 +22,10 @@ docker-compose up=
 
 docker-compose up -d
 
-docker-compose stop {容器名称}  //停止某个容器
+docker-compose stop {容器名称}   //停止某个容器
 
 docker 常用命令:
+
 //看网络
 docker network ls
 
@@ -33,5 +34,6 @@ docker logs {container-name}
 
 //进入docker
 docker exec -it test_mysql_1 bash
+
 
 
