@@ -18,7 +18,7 @@ docker-compose down //删除所有容器 ,它也会删除你的数据容器
 
 docker-compose start
 
-docker-compose up=
+docker-compose up
 
 docker-compose up -d
 
