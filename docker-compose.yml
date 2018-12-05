@@ -32,3 +32,5 @@ services:
             - MYSQL_PASSWORD=test
             - MYSQL_ROOT_PASSWORD=123456
             - LANG=C.UTF-8
+       volumes:
+            - "./data/mysql:/var/lib/mysql"     
